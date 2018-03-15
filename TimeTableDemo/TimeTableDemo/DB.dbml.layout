@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DB">
+  <DataContextMoniker Name="/DBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="bef4296d-7c93-43ad-8abc-34d97da92b09" absoluteBounds="3.5, 1, 2, 2.2764815266927085">
+      <DataClassMoniker Name="/DBDataContext/TimeTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="286b2cb9-03a4-46f1-bb62-40dbddf310d4" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.7164815266927085" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a2a11145-f733-4f85-9622-f33d329cf739" absoluteBounds="0.75, 1.5, 2, 1.1677168782552085">
+      <DataClassMoniker Name="/DBDataContext/TimeTableType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f607200-9fda-483c-a794-6f6ac4e852fc" absoluteBounds="0.765, 1.96, 1.9700000000000002, 0.60771687825520826" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.0838584391276); (3.5 : 2.0838584391276)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBDataContext/TimeTableType/TimeTableType_TimeTable" />
+      <nodes>
+        <classShapeMoniker Id="a2a11145-f733-4f85-9622-f33d329cf739" />
+        <classShapeMoniker Id="bef4296d-7c93-43ad-8abc-34d97da92b09" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
