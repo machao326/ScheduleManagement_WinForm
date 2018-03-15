@@ -101,7 +101,7 @@ namespace TimeTableDemo
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            var fasdfas = "fdasdfa";
+            var fasdfas = "1111";
             this.Close();
         }
     }
