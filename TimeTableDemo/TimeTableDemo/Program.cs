@@ -16,7 +16,7 @@ namespace TimeTableDemo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ListViewControlDemo());
+            Application.Run(new TreeviewControlDemo());
         }
     }
 }

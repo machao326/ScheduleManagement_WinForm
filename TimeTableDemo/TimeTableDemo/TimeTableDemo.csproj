@@ -126,6 +126,12 @@
     <Compile Include="TabControlDemo.Designer.cs">
       <DependentUpon>TabControlDemo.cs</DependentUpon>
     </Compile>
+    <Compile Include="TreeviewControlDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreeviewControlDemo.Designer.cs">
+      <DependentUpon>TreeviewControlDemo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ImageListControlDemo.resx">
       <DependentUpon>ImageListControlDemo.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TabControlDemo.resx">
       <DependentUpon>TabControlDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeviewControlDemo.resx">
+      <DependentUpon>TreeviewControlDemo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DB.dbml.layout">
       <DependentUpon>DB.dbml</DependentUpon>
