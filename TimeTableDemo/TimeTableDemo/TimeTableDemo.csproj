@@ -47,10 +47,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BinaryDemo.Designer.cs">
+      <DependentUpon>BinaryDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BufferStreamDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BufferStreamDemo.Designer.cs">
+      <DependentUpon>BufferStreamDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckListControlDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckListControlDemo.Designer.cs">
+      <DependentUpon>CheckListControlDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControl.Designer.cs">
+      <DependentUpon>CustomControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="DB.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="FileHandleDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileHandleDemo.Designer.cs">
+      <DependentUpon>FileHandleDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileInfoDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileInfoDemo.Designer.cs">
+      <DependentUpon>FileInfoDemo.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -100,6 +136,12 @@
     <Compile Include="MenuStripDemo.Designer.cs">
       <DependentUpon>MenuStripDemo.cs</DependentUpon>
     </Compile>
+    <Compile Include="MonthCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthCalendar.Designer.cs">
+      <DependentUpon>MonthCalendar.cs</DependentUpon>
+    </Compile>
     <Compile Include="PictureControlDemo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,11 +174,32 @@
     <Compile Include="TreeviewControlDemo.Designer.cs">
       <DependentUpon>TreeviewControlDemo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BinaryDemo.resx">
+      <DependentUpon>BinaryDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BufferStreamDemo.resx">
+      <DependentUpon>BufferStreamDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckListControlDemo.resx">
+      <DependentUpon>CheckListControlDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl.resx">
+      <DependentUpon>CustomControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileHandleDemo.resx">
+      <DependentUpon>FileHandleDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileInfoDemo.resx">
+      <DependentUpon>FileInfoDemo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ImageListControlDemo.resx">
       <DependentUpon>ImageListControlDemo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListViewControlDemo.resx">
       <DependentUpon>ListViewControlDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthCalendar.resx">
+      <DependentUpon>MonthCalendar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProcessBarControlDemo.resx">
       <DependentUpon>ProcessBarControlDemo.cs</DependentUpon>
